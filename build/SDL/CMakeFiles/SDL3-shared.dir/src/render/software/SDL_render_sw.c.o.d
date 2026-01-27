@@ -1,0 +1,19 @@
+SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_render_sw.c.o: \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/src/render/software/SDL_render_sw.c \
+ /usr/include/stdc-predef.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/src/SDL_internal.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/src/render/software/../SDL_sysrender.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/src/render/software/../../video/SDL_surface_c.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/src/render/software/../../video/SDL_blit.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/src/render/software/../SDL_yuv_sw_c.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/src/render/software/SDL_render_sw_c.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/src/render/software/SDL_draw.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/src/render/software/../../video/SDL_surface_c.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/src/render/software/SDL_blendfillrect.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/src/render/software/SDL_blendline.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/src/render/software/SDL_blendpoint.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/src/render/software/SDL_drawline.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/src/render/software/SDL_drawpoint.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/src/render/software/SDL_triangle.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/src/render/software/../../video/SDL_pixels_c.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/src/render/software/../../video/SDL_rotate.h

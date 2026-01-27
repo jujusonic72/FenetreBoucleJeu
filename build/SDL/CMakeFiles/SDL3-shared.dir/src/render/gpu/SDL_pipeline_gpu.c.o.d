@@ -1,0 +1,11 @@
+SDL/CMakeFiles/SDL3-shared.dir/src/render/gpu/SDL_pipeline_gpu.c.o: \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/src/render/gpu/SDL_pipeline_gpu.c \
+ /usr/include/stdc-predef.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/src/SDL_internal.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/src/render/gpu/SDL_gpu_util.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/src/render/gpu/SDL_pipeline_gpu.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/src/render/gpu/SDL_shaders_gpu.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/src/render/gpu/../SDL_sysrender.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/src/render/gpu/../../video/SDL_surface_c.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/src/render/gpu/../../video/SDL_blit.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/src/render/gpu/../SDL_yuv_sw_c.h

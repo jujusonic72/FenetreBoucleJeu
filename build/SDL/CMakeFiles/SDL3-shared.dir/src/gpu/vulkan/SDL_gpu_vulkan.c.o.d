@@ -1,0 +1,34 @@
+SDL/CMakeFiles/SDL3-shared.dir/src/gpu/vulkan/SDL_gpu_vulkan.c.o: \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/src/gpu/vulkan/SDL_gpu_vulkan.c \
+ /usr/include/stdc-predef.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/src/SDL_internal.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/src/gpu/vulkan/../../video/khronos/vulkan/vulkan.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/src/gpu/vulkan/../../video/khronos/vulkan/vk_platform.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/stddef.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/stdint.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/src/gpu/vulkan/../../video/khronos/vulkan/vulkan_core.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/src/gpu/vulkan/../../video/khronos/vulkan/../vk_video/vulkan_video_codec_h264std.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/src/gpu/vulkan/../../video/khronos/vulkan/../vk_video/vulkan_video_codecs_common.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/src/gpu/vulkan/../../video/khronos/vulkan/../vk_video/vulkan_video_codec_h264std_encode.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/src/gpu/vulkan/../../video/khronos/vulkan/../vk_video/vulkan_video_codec_h264std.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/src/gpu/vulkan/../../video/khronos/vulkan/../vk_video/vulkan_video_codec_h265std.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/src/gpu/vulkan/../../video/khronos/vulkan/../vk_video/vulkan_video_codec_h265std_encode.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/src/gpu/vulkan/../../video/khronos/vulkan/../vk_video/vulkan_video_codec_h265std.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/src/gpu/vulkan/../../video/khronos/vulkan/../vk_video/vulkan_video_codec_h264std_decode.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/src/gpu/vulkan/../../video/khronos/vulkan/../vk_video/vulkan_video_codec_h265std_decode.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/src/gpu/vulkan/../../video/khronos/vulkan/../vk_video/vulkan_video_codec_av1std.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/src/gpu/vulkan/../../video/khronos/vulkan/../vk_video/vulkan_video_codec_av1std_decode.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/src/gpu/vulkan/../../video/khronos/vulkan/../vk_video/vulkan_video_codec_av1std.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/src/gpu/vulkan/../../video/khronos/vulkan/vulkan_beta.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/include/SDL3/SDL_vulkan.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/include/SDL3/SDL_stdinc.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/include/SDL3/SDL_error.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/include/SDL3/SDL_video.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/include/SDL3/SDL_begin_code.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/include/SDL3/SDL_close_code.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/src/gpu/vulkan/../SDL_sysgpu.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/src/gpu/vulkan/../../video/SDL_sysvideo.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/src/gpu/vulkan/../../video/SDL_surface_c.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/src/gpu/vulkan/../../video/SDL_blit.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/src/gpu/vulkan/../../events/SDL_windowevents_c.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/src/gpu/vulkan/SDL_gpu_vulkan_vkfuncs.h

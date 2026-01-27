@@ -1,0 +1,97 @@
+SDL/CMakeFiles/SDL3-shared.dir/src/SDL.c.o: \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/src/SDL.c \
+ /usr/include/stdc-predef.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/src/SDL_internal.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/build/SDL/include-revision/SDL3/SDL_revision.h \
+ /usr/include/unistd.h /usr/include/features.h \
+ /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
+ /usr/include/x86_64-linux-gnu/bits/environments.h \
+ /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+ /usr/include/x86_64-linux-gnu/bits/types.h \
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/stddef.h \
+ /usr/include/x86_64-linux-gnu/bits/confname.h \
+ /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
+ /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+ /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
+ /usr/include/linux/close_range.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/src/core/linux/SDL_dbus.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/src/SDL_internal.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/src/core/unix/SDL_gtk.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/src/SDL_assert_c.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/src/SDL_hints_c.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/src/SDL_log_c.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/src/SDL_properties_c.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/src/audio/SDL_sysaudio.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/src/camera/SDL_camera_c.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/src/camera/../SDL_internal.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/src/cpuinfo/SDL_cpuinfo_c.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/src/events/SDL_events_c.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/src/events/../video/SDL_sysvideo.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/include/SDL3/SDL_vulkan.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/include/SDL3/SDL_stdinc.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/include/SDL3/SDL_error.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/include/SDL3/SDL_video.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/include/SDL3/SDL_begin_code.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/include/SDL3/SDL_close_code.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/src/events/../video/SDL_surface_c.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/src/events/../video/SDL_blit.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/src/events/SDL_clipboardevents_c.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/src/events/SDL_displayevents_c.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/src/events/SDL_dropevents_c.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/src/events/SDL_keyboard_c.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/src/events/SDL_keymap_c.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/src/events/SDL_mouse_c.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/src/events/SDL_touch_c.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/src/events/SDL_pen_c.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/src/events/../SDL_internal.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/src/events/SDL_windowevents_c.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/src/haptic/SDL_haptic_c.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/src/joystick/SDL_gamepad_c.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/src/joystick/SDL_joystick_c.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/src/render/SDL_sysrender.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/src/render/../video/SDL_surface_c.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/src/render/SDL_yuv_sw_c.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/src/sensor/SDL_sensor_c.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/src/stdlib/SDL_getenv_c.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/src/thread/SDL_thread_c.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/src/thread/pthread/SDL_systhread_c.h \
+ /usr/include/pthread.h /usr/include/sched.h \
+ /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+ /usr/include/x86_64-linux-gnu/bits/sched.h \
+ /usr/include/linux/sched/types.h /usr/include/linux/types.h \
+ /usr/lib/linux/uapi/x86/asm/types.h /usr/include/asm-generic/types.h \
+ /usr/include/asm-generic/int-ll64.h \
+ /usr/lib/linux/uapi/x86/asm/bitsperlong.h \
+ /usr/include/asm-generic/bitsperlong.h /usr/include/linux/posix_types.h \
+ /usr/include/linux/stddef.h /usr/lib/linux/uapi/x86/asm/posix_types.h \
+ /usr/lib/linux/uapi/x86/asm/posix_types_64.h \
+ /usr/include/asm-generic/posix_types.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
+ /usr/include/x86_64-linux-gnu/bits/cpu-set.h /usr/include/time.h \
+ /usr/include/x86_64-linux-gnu/bits/time.h \
+ /usr/include/x86_64-linux-gnu/bits/timex.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+ /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
+ /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
+ /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+ /usr/include/x86_64-linux-gnu/bits/endian.h \
+ /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+ /usr/include/x86_64-linux-gnu/bits/setjmp.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+ /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/src/thread/../SDL_error_c.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/src/thread/../SDL_internal.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/src/tray/SDL_tray_utils.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/src/video/SDL_pixels_c.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/src/video/SDL_blit.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/src/video/SDL_surface_c.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/src/video/SDL_video_c.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/src/filesystem/SDL_filesystem_c.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/src/io/SDL_asyncio_c.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/src/io/../SDL_internal.h \
+ /mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/SDL/src/timer/SDL_timer_c.h

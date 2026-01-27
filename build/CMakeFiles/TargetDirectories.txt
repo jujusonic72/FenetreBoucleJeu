@@ -1,0 +1,8 @@
+/mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/build/CMakeFiles/MonMoteur.dir
+/mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/build/CMakeFiles/edit_cache.dir
+/mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/build/CMakeFiles/rebuild_cache.dir
+/mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/build/SDL/CMakeFiles/SDL3-shared.dir
+/mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/build/SDL/CMakeFiles/SDL3_test.dir
+/mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/build/SDL/CMakeFiles/SDL_uclibc.dir
+/mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/build/SDL/CMakeFiles/edit_cache.dir
+/mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/build/SDL/CMakeFiles/rebuild_cache.dir

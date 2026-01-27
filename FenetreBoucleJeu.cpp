@@ -1,5 +1,5 @@
 
-#define SDL_MAIN_USE_CALLBACKS 0  /* use the callbacks instead of main() */
+#define SDL_MAIN_USE_CALLBACKS 0  /* use the main() instead of callbacks */
 
 #include <SDL3/SDL.h>
 #include "CGameEngine.h"

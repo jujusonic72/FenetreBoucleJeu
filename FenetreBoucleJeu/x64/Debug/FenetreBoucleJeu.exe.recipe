@@ -2,10 +2,10 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>D:\poij31\jujusonic72\performanceMoteur\x64\Debug\SDL3.dll</FullPath>
+      <FullPath>D:\poij31\opti\x64\Debug\SDL3.dll</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>D:\poij31\jujusonic72\performanceMoteur\x64\Debug\FenetreBoucleJeu.exe</FullPath>
+      <FullPath>D:\poij31\opti\x64\Debug\FenetreBoucleJeu.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

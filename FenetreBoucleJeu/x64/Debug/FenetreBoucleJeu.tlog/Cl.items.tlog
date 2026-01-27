@@ -1,7 +1,7 @@
-D:\poij31\jujusonic72\performanceMoteur\CCounter.cpp;D:\poij31\jujusonic72\performanceMoteur\FenetreBoucleJeu\x64\Debug\CCounter.obj
-D:\poij31\jujusonic72\performanceMoteur\CGameEngine.cpp;D:\poij31\jujusonic72\performanceMoteur\FenetreBoucleJeu\x64\Debug\CGameEngine.obj
-D:\poij31\jujusonic72\performanceMoteur\FenetreBoucleJeu.cpp;D:\poij31\jujusonic72\performanceMoteur\FenetreBoucleJeu\x64\Debug\FenetreBoucleJeu.obj
-D:\poij31\jujusonic72\performanceMoteur\SubSystems\CGameSubsystem.cpp;D:\poij31\jujusonic72\performanceMoteur\FenetreBoucleJeu\x64\Debug\CGameSubsystem.obj
-D:\poij31\jujusonic72\performanceMoteur\SubSystems\CInputSubsystem.cpp;D:\poij31\jujusonic72\performanceMoteur\FenetreBoucleJeu\x64\Debug\CInputSubsystem.obj
-D:\poij31\jujusonic72\performanceMoteur\SubSystems\CRendererSubsystem.cpp;D:\poij31\jujusonic72\performanceMoteur\FenetreBoucleJeu\x64\Debug\CRendererSubsystem.obj
-D:\poij31\jujusonic72\performanceMoteur\SubSystems\ISubsystem.cpp;D:\poij31\jujusonic72\performanceMoteur\FenetreBoucleJeu\x64\Debug\ISubsystem.obj
+D:\poij31\opti\CCounter.cpp;D:\poij31\opti\FenetreBoucleJeu\x64\Debug\CCounter.obj
+D:\poij31\opti\CGameEngine.cpp;D:\poij31\opti\FenetreBoucleJeu\x64\Debug\CGameEngine.obj
+D:\poij31\opti\FenetreBoucleJeu.cpp;D:\poij31\opti\FenetreBoucleJeu\x64\Debug\FenetreBoucleJeu.obj
+D:\poij31\opti\SubSystems\CGameSubsystem.cpp;D:\poij31\opti\FenetreBoucleJeu\x64\Debug\CGameSubsystem.obj
+D:\poij31\opti\SubSystems\CInputSubsystem.cpp;D:\poij31\opti\FenetreBoucleJeu\x64\Debug\CInputSubsystem.obj
+D:\poij31\opti\SubSystems\CRendererSubsystem.cpp;D:\poij31\opti\FenetreBoucleJeu\x64\Debug\CRendererSubsystem.obj
+D:\poij31\opti\SubSystems\ISubsystem.cpp;D:\poij31\opti\FenetreBoucleJeu\x64\Debug\ISubsystem.obj

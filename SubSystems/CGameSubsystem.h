@@ -13,4 +13,5 @@ private:
     float frames[100] = {}, timer = 0, moyenne = 0;
     int index = 0, frameCount = 0, backgroundColor = 0;
     SDL_Palette* palette;
+    bool show_demo_window = true;
 };

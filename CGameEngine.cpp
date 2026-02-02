@@ -29,7 +29,7 @@ CGameEngine::CGameEngine()
     : running(false)
     , initialized(false)
     , window(nullptr)
-    , SDLRenderer(nullptr)
+    , gl_context(nullptr)
     , counter(nullptr)
     , input(nullptr)
     , renderer(nullptr)
@@ -78,8 +78,8 @@ bool CGameEngine::Init()
     SDL_WindowFlags window_flags = SDL_WINDOW_OPENGL | SDL_WINDOW_RESIZABLE | SDL_WINDOW_HIDDEN | SDL_WINDOW_HIGH_PIXEL_DENSITY;
     float main_scale = SDL_GetDisplayContentScale(SDL_GetPrimaryDisplay());
     std::cout << "Init: SDL_Init OK, creating window..." << std::endl;
-    SDL_Window* window = SDL_CreateWindow("Fenetre Boucle de Jeu", (int)(1280 * main_scale), (int)(800 * main_scale), window_flags);
-    SDL_GLContext gl_context = SDL_GL_CreateContext(window);
+    window = SDL_CreateWindow("Fenetre Boucle de Jeu", (int)(1280 * main_scale), (int)(800 * main_scale), window_flags);
+    gl_context = SDL_GL_CreateContext(window);
     if (window == nullptr)
     {
         printf("Error: SDL_CreateWindow(): %s\n", SDL_GetError());
@@ -117,11 +117,6 @@ bool CGameEngine::Init()
     // Setup Platform/Renderer backends
     ImGui_ImplSDL3_InitForOpenGL(window, gl_context);
     ImGui_ImplOpenGL3_Init(glsl_version);
-
-    // Our state
-    bool show_demo_window = true;
-    bool show_another_window = false;
-    ImVec4 clear_color = ImVec4(0.45f, 0.55f, 0.60f, 1.00f);
 
     std::cout << "Init: window created, creating counter..." << std::endl;
     // Initialisation du compteur de temps (unique)
@@ -185,8 +180,14 @@ void CGameEngine::Loop()
         counter->UpdateCounter();
         float deltaSeconds = counter->GetDeltaSeconds();
 
+        // Début de frame ImGui (avant les subsystems)
+        renderer->OnBeginFrame();
+
         // Mettre à jour tous les subsystems
         UpdateSubsystems(deltaSeconds);
+
+        // Fin de frame ImGui (après les subsystems)
+        renderer->OnEndFrame();
 
         running = !input->QuitEvent;
     }
@@ -223,10 +224,10 @@ void CGameEngine::Shutdown()
     counter.reset();
 
     // Libérer les ressources SDL
-    if (SDLRenderer)
+    if (gl_context)
     {
-        SDL_DestroyRenderer(SDLRenderer);
-        SDLRenderer = nullptr;
+        SDL_GL_DestroyContext(gl_context);
+        gl_context = nullptr;
     }
 
     if (window)

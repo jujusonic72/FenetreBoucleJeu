@@ -1,6 +1,7 @@
-﻿#include "CGameSubsystem.h"
+#include "CGameSubsystem.h"
 #include "CInputSubsystem.h"
 #include "CGameEngine.h"
+#include "imgui.h"
 #include <vector>
 bool CGameSubsystem::Start()
 {
@@ -31,10 +32,13 @@ void CGameSubsystem::Update(float deltaSeconds)
     }
     index = (index + 1) % 100;
     frameCount = (frameCount < 100) ? ++frameCount : 100;
-    if(CGameEngine::GetInstance().GetInput()->GetButtonState(SDL_SCANCODE_SPACE) == CInputSubsystem::EButtonState::JUST_PRESSED) 
+    if(CGameEngine::GetInstance().GetInput()->GetButtonState(SDL_SCANCODE_SPACE) == CInputSubsystem::EButtonState::JUST_PRESSED)
     {
         backgroundColor = (backgroundColor + 1) % 5;
     }
+
+    // Fenetre de demo ImGui
+    ImGui::ShowDemoWindow(&show_demo_window);
 }
 
 void CGameSubsystem::Shutdown()

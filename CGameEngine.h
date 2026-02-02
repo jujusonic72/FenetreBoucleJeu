@@ -15,7 +15,7 @@ class CInputSubsystem;
 class CGameSubsystem;
 
 struct SDL_Window;
-struct SDL_Renderer;
+typedef void* SDL_GLContext;
 
 using namespace std;
 
@@ -47,7 +47,7 @@ public:
 
     // Getters SDL
     SDL_Window* GetWindow() const { return window; }
-    SDL_Renderer* GetSDLRenderer() const { return SDLRenderer; }
+    SDL_GLContext GetGLContext() const { return gl_context; }
 
     // État du moteur
     bool IsRunning() const { return running; }
@@ -72,9 +72,9 @@ private:
     bool running;
     bool initialized;
 
-    // Ressources SDL
+    // Ressources SDL / OpenGL
     SDL_Window* window;
-    SDL_Renderer* SDLRenderer;
+    SDL_GLContext gl_context;
 
     // Compteur de temps (delta time)
     unique_ptr<CCounter> counter;

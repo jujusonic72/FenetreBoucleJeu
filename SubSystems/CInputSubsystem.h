@@ -9,6 +9,8 @@ public:
     bool Start() override;
     void Update(float deltaSeconds) override;
     void Shutdown() override;
+    void OnBeginFrame();
+    void OnEndFrame();
     EButtonState GetButtonState(SDL_Scancode key);
     std::unordered_map<SDL_Scancode,EButtonState> buttons;
     bool QuitEvent = false;

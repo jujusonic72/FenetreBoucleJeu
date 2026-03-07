@@ -1,0 +1,57 @@
+{
+    "GObjects": [
+        {
+            "Components": [
+                {
+                    "PosX": 200.0,
+                    "PosY": 350.0,
+                    "PosZ": 0.0,
+                    "Rotation": 0.0,
+                    "Type": "CTransformComponent"
+                },
+                {
+                    "A": 255.0,
+                    "B": 255.0,
+                    "Filled": true,
+                    "G": 255.0,
+                    "Height": 40.0,
+                    "R": 255.0,
+                    "Radius": 20.0,
+                    "ShapeType": 0,
+                    "Thickness": 1.0,
+                    "Type": "CRendererComponent",
+                    "Width": 40.0
+                }
+            ],
+            "Name": "Joueur",
+            "Type": "CEntity"
+        },
+        {
+            "Components": [
+                {
+                    "PosX": 450.0,
+                    "PosY": 250.0,
+                    "PosZ": 0.0,
+                    "Rotation": 0.0,
+                    "Type": "CTransformComponent"
+                },
+                {
+                    "A": 255.0,
+                    "B": 0.0,
+                    "Filled": false,
+                    "G": 0.0,
+                    "Height": 40.0,
+                    "R": 255.0,
+                    "Radius": 30.0,
+                    "ShapeType": 1,
+                    "Thickness": 5.0,
+                    "Type": "CRendererComponent",
+                    "Width": 40.0
+                }
+            ],
+            "Name": "Ennemi",
+            "Type": "CEntity"
+        }
+    ],
+    "Scene": "TP2"
+}

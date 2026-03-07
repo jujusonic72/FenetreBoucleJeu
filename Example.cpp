@@ -1,0 +1,7 @@
+#include "Example.h"
+
+
+IMPLEMENT_REFLECTION(GPlayerState, GObject)
+IMPLEMENT_REFLECTION(GAnimal, GObject)
+IMPLEMENT_REFLECTION(GCat, GAnimal)
+IMPLEMENT_REFLECTION(GDog, GAnimal)

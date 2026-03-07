@@ -1,0 +1,107 @@
+{
+	"abstract" : true,
+	"backtrace" : 5,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"_pkg_create_imp_target",
+			"_pkg_recalculate",
+			"pkg_check_modules",
+			"CheckWayland",
+			"set_property"
+		],
+		"files" : 
+		[
+			"/usr/share/cmake/Modules/FindPkgConfig.cmake",
+			"SDL/cmake/sdlchecks.cmake",
+			"SDL/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 1831,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 653,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 1174,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 813,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 787,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 794,
+				"parent" : 4
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	},
+	"id" : "PkgConfig::PC_WAYLAND::@e7c329919722962a2ad4",
+	"imported" : true,
+	"interfaceLinkLibraries" : 
+	[
+		{
+			"backtrace" : 6,
+			"fragment" : "/usr/lib/libwayland-egl.so"
+		},
+		{
+			"backtrace" : 6,
+			"fragment" : "/usr/lib/libwayland-cursor.so"
+		},
+		{
+			"backtrace" : 6,
+			"fragment" : "/usr/lib/libwayland-client.so"
+		},
+		{
+			"backtrace" : 6,
+			"fragment" : "/usr/lib/libm.so"
+		},
+		{
+			"backtrace" : 6,
+			"fragment" : "/usr/lib/libEGL.so"
+		},
+		{
+			"backtrace" : 6,
+			"fragment" : "/usr/lib/libxkbcommon.so"
+		}
+	],
+	"local" : true,
+	"name" : "PkgConfig::PC_WAYLAND",
+	"paths" : 
+	{
+		"build" : "SDL",
+		"source" : "SDL"
+	},
+	"sources" : [],
+	"type" : "INTERFACE_LIBRARY"
+}

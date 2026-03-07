@@ -1,8 +1,8 @@
-/mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/build/CMakeFiles/MonMoteur.dir
-/mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/build/CMakeFiles/edit_cache.dir
-/mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/build/CMakeFiles/rebuild_cache.dir
-/mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/build/SDL/CMakeFiles/SDL3-shared.dir
-/mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/build/SDL/CMakeFiles/SDL3_test.dir
-/mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/build/SDL/CMakeFiles/SDL_uclibc.dir
-/mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/build/SDL/CMakeFiles/edit_cache.dir
-/mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/build/SDL/CMakeFiles/rebuild_cache.dir
+/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/build/CMakeFiles/MonMoteur.dir
+/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/build/CMakeFiles/edit_cache.dir
+/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/build/CMakeFiles/rebuild_cache.dir
+/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/build/SDL/CMakeFiles/SDL3-shared.dir
+/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/build/SDL/CMakeFiles/SDL3_test.dir
+/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/build/SDL/CMakeFiles/SDL_uclibc.dir
+/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/build/SDL/CMakeFiles/edit_cache.dir
+/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/build/SDL/CMakeFiles/rebuild_cache.dir

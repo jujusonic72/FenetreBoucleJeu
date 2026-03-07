@@ -206,22 +206,22 @@
 
 #endif /* HAVE_LIBC */
 
-/* #undef HAVE_DBUS_DBUS_H */
-/* #undef HAVE_FCITX */
+#define HAVE_DBUS_DBUS_H 1
+#define HAVE_FCITX 1
 /* #undef HAVE_IBUS_IBUS_H */
 #define HAVE_INOTIFY_INIT1 1
 #define HAVE_INOTIFY 1
-/* #undef HAVE_LIBUSB */
+#define HAVE_LIBUSB 1
 #define HAVE_O_CLOEXEC 1
 
 #define HAVE_LINUX_INPUT_H 1
-/* #undef HAVE_LIBUDEV_H */
-/* #undef HAVE_LIBDECOR_H */
-/* #undef HAVE_LIBURING_H */
-/* #undef HAVE_FRIBIDI_H */
-/* #undef SDL_FRIBIDI_DYNAMIC */
-/* #undef HAVE_LIBTHAI_H */
-/* #undef SDL_LIBTHAI_DYNAMIC */
+#define HAVE_LIBUDEV_H 1
+#define HAVE_LIBDECOR_H 1
+#define HAVE_LIBURING_H 1
+#define HAVE_FRIBIDI_H 1
+#define SDL_FRIBIDI_DYNAMIC "libfribidi.so.0"
+#define HAVE_LIBTHAI_H 1
+#define SDL_LIBTHAI_DYNAMIC "libthai.so.0"
 
 /* #undef HAVE_DDRAW_H */
 /* #undef HAVE_DSOUND_H */
@@ -275,16 +275,16 @@
 #define SDL_AUDIO_DRIVER_DUMMY 1
 /* #undef SDL_AUDIO_DRIVER_EMSCRIPTEN */
 /* #undef SDL_AUDIO_DRIVER_HAIKU */
-/* #undef SDL_AUDIO_DRIVER_JACK */
-/* #undef SDL_AUDIO_DRIVER_JACK_DYNAMIC */
+#define SDL_AUDIO_DRIVER_JACK 1
+#define SDL_AUDIO_DRIVER_JACK_DYNAMIC "libjack.so.0"
 /* #undef SDL_AUDIO_DRIVER_NETBSD */
 /* #undef SDL_AUDIO_DRIVER_OSS */
-/* #undef SDL_AUDIO_DRIVER_PIPEWIRE */
-/* #undef SDL_AUDIO_DRIVER_PIPEWIRE_DYNAMIC */
+#define SDL_AUDIO_DRIVER_PIPEWIRE 1
+#define SDL_AUDIO_DRIVER_PIPEWIRE_DYNAMIC "libpipewire-0.3.so.0"
 #define SDL_AUDIO_DRIVER_PULSEAUDIO 1
 #define SDL_AUDIO_DRIVER_PULSEAUDIO_DYNAMIC "libpulse.so.0"
-/* #undef SDL_AUDIO_DRIVER_SNDIO */
-/* #undef SDL_AUDIO_DRIVER_SNDIO_DYNAMIC */
+#define SDL_AUDIO_DRIVER_SNDIO 1
+#define SDL_AUDIO_DRIVER_SNDIO_DYNAMIC "libsndio.so.7"
 /* #undef SDL_AUDIO_DRIVER_WASAPI */
 /* #undef SDL_AUDIO_DRIVER_VITA */
 /* #undef SDL_AUDIO_DRIVER_PSP */
@@ -331,8 +331,8 @@
 
 /* #undef SDL_HAPTIC_PRIVATE */
 
-/* #undef SDL_LIBUSB_DYNAMIC */
-/* #undef SDL_UDEV_DYNAMIC */
+#define SDL_LIBUSB_DYNAMIC "libusb-1.0.so.0"
+#define SDL_UDEV_DYNAMIC "libudev.so.1"
 
 /* Enable various process implementations */
 /* #undef SDL_PROCESS_DUMMY */
@@ -401,9 +401,9 @@
 #define SDL_VIDEO_DRIVER_DUMMY 1
 /* #undef SDL_VIDEO_DRIVER_EMSCRIPTEN */
 /* #undef SDL_VIDEO_DRIVER_HAIKU */
-/* #undef SDL_VIDEO_DRIVER_KMSDRM */
-/* #undef SDL_VIDEO_DRIVER_KMSDRM_DYNAMIC */
-/* #undef SDL_VIDEO_DRIVER_KMSDRM_DYNAMIC_GBM */
+#define SDL_VIDEO_DRIVER_KMSDRM 1
+#define SDL_VIDEO_DRIVER_KMSDRM_DYNAMIC "libdrm.so.2"
+#define SDL_VIDEO_DRIVER_KMSDRM_DYNAMIC_GBM "libgbm.so.1"
 /* #undef SDL_VIDEO_DRIVER_N3DS */
 /* #undef SDL_VIDEO_DRIVER_NGAGE */
 #define SDL_VIDEO_DRIVER_OFFSCREEN 1
@@ -421,7 +421,7 @@
 #define SDL_VIDEO_DRIVER_WAYLAND_DYNAMIC "libwayland-client.so.0"
 #define SDL_VIDEO_DRIVER_WAYLAND_DYNAMIC_CURSOR "libwayland-cursor.so.0"
 #define SDL_VIDEO_DRIVER_WAYLAND_DYNAMIC_EGL "libwayland-egl.so.1"
-/* #undef SDL_VIDEO_DRIVER_WAYLAND_DYNAMIC_LIBDECOR */
+#define SDL_VIDEO_DRIVER_WAYLAND_DYNAMIC_LIBDECOR "libdecor-0.so.0"
 #define SDL_VIDEO_DRIVER_WAYLAND_DYNAMIC_XKBCOMMON "libxkbcommon.so.0"
 /* #undef SDL_VIDEO_DRIVER_WINDOWS */
 #define SDL_VIDEO_DRIVER_X11 1
@@ -468,7 +468,7 @@
 
 /* Enable OpenGL support */
 #define SDL_VIDEO_OPENGL 1
-#define SDL_VIDEO_OPENGL_ES 1
+/* #undef SDL_VIDEO_OPENGL_ES */
 #define SDL_VIDEO_OPENGL_ES2 1
 /* #undef SDL_VIDEO_OPENGL_CGL */
 #define SDL_VIDEO_OPENGL_GLX 1
@@ -542,8 +542,8 @@
 /* #undef SDL_CAMERA_DRIVER_ANDROID */
 /* #undef SDL_CAMERA_DRIVER_EMSCRIPTEN */
 /* #undef SDL_CAMERA_DRIVER_MEDIAFOUNDATION */
-/* #undef SDL_CAMERA_DRIVER_PIPEWIRE */
-/* #undef SDL_CAMERA_DRIVER_PIPEWIRE_DYNAMIC */
+#define SDL_CAMERA_DRIVER_PIPEWIRE 1
+#define SDL_CAMERA_DRIVER_PIPEWIRE_DYNAMIC "libpipewire-0.3.so.0"
 /* #undef SDL_CAMERA_DRIVER_VITA */
 
 /* #undef SDL_CAMERA_DRIVER_PRIVATE */
@@ -561,7 +561,7 @@
 #define DYNAPI_NEEDS_DLOPEN 1
 
 /* Enable ime support */
-/* #undef SDL_USE_IME */
+#define SDL_USE_IME 1
 /* #undef SDL_DISABLE_WINDOWS_IME */
 /* #undef SDL_GDK_TEXTINPUT */
 
@@ -575,13 +575,13 @@
 
 /* xkbcommon version info */
 #define SDL_XKBCOMMON_VERSION_MAJOR 1
-#define SDL_XKBCOMMON_VERSION_MINOR 7
-#define SDL_XKBCOMMON_VERSION_PATCH 0
+#define SDL_XKBCOMMON_VERSION_MINOR 13
+#define SDL_XKBCOMMON_VERSION_PATCH 1
 
 /* Libdecor version info */
-#define SDL_LIBDECOR_VERSION_MAJOR 
-#define SDL_LIBDECOR_VERSION_MINOR 
-#define SDL_LIBDECOR_VERSION_PATCH 
+#define SDL_LIBDECOR_VERSION_MAJOR 0
+#define SDL_LIBDECOR_VERSION_MINOR 2
+#define SDL_LIBDECOR_VERSION_PATCH 5
 
 #if !defined(HAVE_STDINT_H) && !defined(_STDINT_H_)
 /* Most everything except Visual Studio 2008 and earlier has stdint.h now */

@@ -1,6 +1,9 @@
 ﻿#include "CGameEngine.h"
 #include "SubSystems/ISubsystem.h"
 #include "CCounter.h"
+#include "CGameEngine.h"
+#include "SubSystems/ISubsystem.h"
+#include "CCounter.h"
 #include "SubSystems/CRendererSubsystem.h"
 #include "SubSystems/CInputSubsystem.h"
 #include "SubSystems/CGameSubsystem.h"
@@ -64,7 +67,7 @@ bool CGameEngine::Init()
         std::cerr << "[CGameEngine] SDL_Init failed: " << SDL_GetError() << std::endl;
         return false;
     }
-    // GL 3.0 + GLSL 130
+
     const char* glsl_version = "#version 130";
     SDL_GL_SetAttribute(SDL_GL_CONTEXT_FLAGS, 0);
     SDL_GL_SetAttribute(SDL_GL_CONTEXT_PROFILE_MASK, SDL_GL_CONTEXT_PROFILE_CORE);
@@ -92,7 +95,6 @@ bool CGameEngine::Init()
         SDL_Quit();
         return false;
     }
-
     SDL_GL_MakeCurrent(window, gl_context);
     SDL_GL_SetSwapInterval(1); // Enable vsync
     SDL_SetWindowPosition(window, SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED);
@@ -122,7 +124,10 @@ bool CGameEngine::Init()
     // Initialisation du compteur de temps (unique)
     counter = std::make_unique<CCounter>();
 
-    std::cout << "Init: counter created, creating subsystems..." << std::endl;
+    std::cout << "Init: counter created, creating page allocator..." << std::endl;
+    pageAlloc = std::make_unique<GameAllocator>();
+
+    std::cout << "Init: page allocator created, creating subsystems..." << std::endl;
     // Création et initialisation des Subsystems
 
     std::cout << "Init: creating CInputSubsystem..." << std::endl;
@@ -222,6 +227,9 @@ void CGameEngine::Shutdown()
 
     // Libérer le compteur
     counter.reset();
+
+    // Libérer l'allocateur
+    pageAlloc.reset();
 
     // Libérer les ressources SDL
     if (gl_context)

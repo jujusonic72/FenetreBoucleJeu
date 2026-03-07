@@ -1,11 +1,9 @@
 ﻿#pragma once
-// #include "SubSystems/CGameSubsystem.h"
-// #include "SubSystems/CInputSubsystem.h"
-// #include "SubSystems/CRendererSubsystem.h"
-// #include "SubSystems/ISubsystem.h"
+
 #include <vector>
 #include <memory>
 #include <cstdint>
+#include "CPageAlocator.h"
 
 // Forward declarations
 class ISubsystem;
@@ -15,10 +13,16 @@ class CInputSubsystem;
 class CGameSubsystem;
 
 struct SDL_Window;
-typedef void* SDL_GLContext;
+typedef struct SDL_GLContextState *SDL_GLContext;
 
 using namespace std;
 
+/*
+ * Typedef pour l'allocateur du moteur.
+ * NBytes = 128 : chaque page fait 128 bytes (assez pour nos composants/entités)
+ * NObjects = 1024*1024 : ~1 million de pages = 128 Mo de mémoire pré-allouée
+ */
+using GameAllocator = CPageAllocator<128, 1024 * 1024>;
 /**
  * class CGameEngine 
  * C'est la classe principale du moteur
@@ -53,6 +57,8 @@ public:
     bool IsRunning() const { return running; }
     void RequestQuit() { running = false; }
 
+    GameAllocator* GetAllocator() const { return pageAlloc.get(); }
+
 
 private:
     // Constructeur privé (Singleton)
@@ -86,4 +92,6 @@ private:
 
     // Liste de tous les subsystems pour itération
     vector<ISubsystem*> subsystems;
+
+    unique_ptr<GameAllocator> pageAlloc;
 }; 

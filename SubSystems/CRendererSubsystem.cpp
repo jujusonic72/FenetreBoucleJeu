@@ -1,5 +1,6 @@
 #include "CRendererSubsystem.h"
 #include "CGameEngine.h"
+#include "SubSystems/CGameSubsystem.h"
 #include "imgui.h"
 #include "imgui_impl_sdl3.h"
 #include "imgui_impl_opengl3.h"
@@ -29,7 +30,8 @@ void CRendererSubsystem::OnEndFrame()
     ImGui::Render();
     ImGuiIO& io = ImGui::GetIO();
     glViewport(0, 0, (int)io.DisplaySize.x, (int)io.DisplaySize.y);
-    glClearColor(0.45f, 0.55f, 0.60f, 1.00f);
+    SDL_Color bg = CGameEngine::GetInstance().GetGame()->GetBackgroundColor();
+    glClearColor(bg.r / 255.0f, bg.g / 255.0f, bg.b / 255.0f, bg.a / 255.0f);
     glClear(GL_COLOR_BUFFER_BIT);
     ImGui_ImplOpenGL3_RenderDrawData(ImGui::GetDrawData());
     SDL_GL_SwapWindow(m_window);

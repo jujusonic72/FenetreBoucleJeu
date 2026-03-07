@@ -1,0 +1,1888 @@
+{
+	"globsDependent" : 
+	[
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/SDL.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/SDL_assert.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/SDL_error.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/SDL_guid.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/SDL_hashtable.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/SDL_hints.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/SDL_list.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/SDL_log.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/SDL_properties.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/SDL_utils.c"
+			]
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/*.h",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/SDL_assert_c.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/SDL_error_c.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/SDL_hashtable.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/SDL_hints_c.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/SDL_internal.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/SDL_list.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/SDL_log_c.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/SDL_properties_c.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/SDL_utils_c.h"
+			]
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/atomic/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/atomic/SDL_atomic.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/atomic/SDL_spinlock.c"
+			]
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/atomic/*.h",
+			"listDirectories" : true,
+			"paths" : []
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/audio/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/audio/SDL_audio.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/audio/SDL_audiocvt.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/audio/SDL_audiodev.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/audio/SDL_audioqueue.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/audio/SDL_audioresample.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/audio/SDL_audiotypecvt.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/audio/SDL_mixer.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/audio/SDL_wave.c"
+			]
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/audio/*.h",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/audio/SDL_audio_c.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/audio/SDL_audio_channel_converters.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/audio/SDL_audiodev_c.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/audio/SDL_audioqueue.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/audio/SDL_audioresample.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/audio/SDL_sysaudio.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/audio/SDL_wave.h"
+			]
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/audio/alsa/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/audio/alsa/SDL_alsa_audio.c"
+			]
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/audio/disk/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/audio/disk/SDL_diskaudio.c"
+			]
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/audio/disk/*.h",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/audio/disk/SDL_diskaudio.h"
+			]
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/audio/dummy/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/audio/dummy/SDL_dummyaudio.c"
+			]
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/audio/dummy/*.h",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/audio/dummy/SDL_dummyaudio.h"
+			]
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/audio/jack/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/audio/jack/SDL_jackaudio.c"
+			]
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/audio/pipewire/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/audio/pipewire/SDL_pipewire.c"
+			]
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/audio/pulseaudio/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/audio/pulseaudio/SDL_pulseaudio.c"
+			]
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/audio/sndio/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/audio/sndio/SDL_sndioaudio.c"
+			]
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/camera/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/camera/SDL_camera.c"
+			]
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/camera/*.h",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/camera/SDL_camera_c.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/camera/SDL_syscamera.h"
+			]
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/camera/dummy/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/camera/dummy/SDL_camera_dummy.c"
+			]
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/camera/dummy/*.h",
+			"listDirectories" : true,
+			"paths" : []
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/camera/pipewire/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/camera/pipewire/SDL_camera_pipewire.c"
+			]
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/camera/v4l2/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/camera/v4l2/SDL_camera_v4l2.c"
+			]
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/camera/v4l2/*.h",
+			"listDirectories" : true,
+			"paths" : []
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/core/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/core/SDL_core_unsupported.c"
+			]
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/core/*.h",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/core/SDL_core_unsupported.h"
+			]
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/core/unix/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/core/unix/SDL_appid.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/core/unix/SDL_fribidi.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/core/unix/SDL_gtk.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/core/unix/SDL_libthai.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/core/unix/SDL_poll.c"
+			]
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/core/unix/*.h",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/core/unix/SDL_appid.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/core/unix/SDL_fribidi.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/core/unix/SDL_gtk.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/core/unix/SDL_libthai.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/core/unix/SDL_poll.h"
+			]
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/cpuinfo/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/cpuinfo/SDL_cpuinfo.c"
+			]
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/cpuinfo/*.h",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/cpuinfo/SDL_cpuinfo_c.h"
+			]
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/dynapi/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/dynapi/SDL_dynapi.c"
+			]
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/dynapi/*.h",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/dynapi/SDL_dynapi.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/dynapi/SDL_dynapi_overrides.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/dynapi/SDL_dynapi_procs.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/dynapi/SDL_dynapi_unsupported.h"
+			]
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/events/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/events/SDL_categories.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/events/SDL_clipboardevents.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/events/SDL_displayevents.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/events/SDL_dropevents.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/events/SDL_events.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/events/SDL_eventwatch.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/events/SDL_keyboard.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/events/SDL_keymap.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/events/SDL_keysym_to_keycode.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/events/SDL_keysym_to_scancode.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/events/SDL_mouse.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/events/SDL_pen.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/events/SDL_quit.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/events/SDL_scancode_tables.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/events/SDL_touch.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/events/SDL_windowevents.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/events/imKStoUCS.c"
+			]
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/events/*.h",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/events/SDL_categories_c.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/events/SDL_clipboardevents_c.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/events/SDL_displayevents_c.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/events/SDL_dropevents_c.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/events/SDL_events_c.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/events/SDL_eventwatch_c.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/events/SDL_keyboard_c.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/events/SDL_keymap_c.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/events/SDL_keysym_to_keycode_c.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/events/SDL_keysym_to_scancode_c.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/events/SDL_mouse_c.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/events/SDL_pen_c.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/events/SDL_scancode_tables_c.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/events/SDL_touch_c.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/events/SDL_windowevents_c.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/events/blank_cursor.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/events/default_cursor.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/events/imKStoUCS.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/events/scancodes_darwin.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/events/scancodes_linux.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/events/scancodes_windows.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/events/scancodes_xfree86.h"
+			]
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/filesystem/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/filesystem/SDL_filesystem.c"
+			]
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/filesystem/*.h",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/filesystem/SDL_filesystem_c.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/filesystem/SDL_sysfilesystem.h"
+			]
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/filesystem/unix/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/filesystem/unix/SDL_sysfilesystem.c"
+			]
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/gpu/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/gpu/SDL_gpu.c"
+			]
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/gpu/*.h",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/gpu/SDL_sysgpu.h"
+			]
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/gpu/vulkan/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/gpu/vulkan/SDL_gpu_vulkan.c"
+			]
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/gpu/vulkan/*.h",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/gpu/vulkan/SDL_gpu_vulkan_vkfuncs.h"
+			]
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/haptic/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/haptic/SDL_haptic.c"
+			]
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/haptic/*.h",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/haptic/SDL_haptic_c.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/haptic/SDL_syshaptic.h"
+			]
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/haptic/hidapi/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/haptic/hidapi/SDL_hidapihaptic.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/haptic/hidapi/SDL_hidapihaptic_lg4ff.c"
+			]
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/haptic/linux/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/haptic/linux/SDL_syshaptic.c"
+			]
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/haptic/linux/*.h",
+			"listDirectories" : true,
+			"paths" : []
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/hidapi/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/hidapi/SDL_hidapi.c"
+			]
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/hidapi/*.h",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/hidapi/SDL_hidapi_android.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/hidapi/SDL_hidapi_c.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/hidapi/SDL_hidapi_ios.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/hidapi/SDL_hidapi_libusb.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/hidapi/SDL_hidapi_linux.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/hidapi/SDL_hidapi_mac.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/hidapi/SDL_hidapi_netbsd.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/hidapi/SDL_hidapi_steamxbox.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/hidapi/SDL_hidapi_windows.h"
+			]
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/io/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/io/SDL_asyncio.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/io/SDL_iostream.c"
+			]
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/io/*.h",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/io/SDL_asyncio_c.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/io/SDL_iostream_c.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/io/SDL_sysasyncio.h"
+			]
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/io/generic/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/io/generic/SDL_asyncio_generic.c"
+			]
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/io/generic/*.h",
+			"listDirectories" : true,
+			"paths" : []
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/joystick/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/joystick/SDL_gamepad.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/joystick/SDL_joystick.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/joystick/SDL_steam_virtual_gamepad.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/joystick/controller_type.c"
+			]
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/joystick/*.h",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/joystick/SDL_gamepad_c.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/joystick/SDL_gamepad_db.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/joystick/SDL_joystick_c.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/joystick/SDL_steam_virtual_gamepad.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/joystick/SDL_sysjoystick.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/joystick/controller_list.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/joystick/controller_type.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/joystick/usb_ids.h"
+			]
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/joystick/hidapi/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/joystick/hidapi/SDL_hidapi_8bitdo.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/joystick/hidapi/SDL_hidapi_combined.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/joystick/hidapi/SDL_hidapi_flydigi.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/joystick/hidapi/SDL_hidapi_gamecube.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/joystick/hidapi/SDL_hidapi_gip.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/joystick/hidapi/SDL_hidapi_lg4ff.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/joystick/hidapi/SDL_hidapi_luna.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/joystick/hidapi/SDL_hidapi_ps3.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/joystick/hidapi/SDL_hidapi_ps4.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/joystick/hidapi/SDL_hidapi_ps5.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/joystick/hidapi/SDL_hidapi_rumble.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/joystick/hidapi/SDL_hidapi_shield.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/joystick/hidapi/SDL_hidapi_sinput.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/joystick/hidapi/SDL_hidapi_stadia.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/joystick/hidapi/SDL_hidapi_steam.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/joystick/hidapi/SDL_hidapi_steam_hori.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/joystick/hidapi/SDL_hidapi_steam_triton.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/joystick/hidapi/SDL_hidapi_steamdeck.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/joystick/hidapi/SDL_hidapi_switch.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/joystick/hidapi/SDL_hidapi_switch2.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/joystick/hidapi/SDL_hidapi_wii.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/joystick/hidapi/SDL_hidapi_xbox360.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/joystick/hidapi/SDL_hidapi_xbox360w.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/joystick/hidapi/SDL_hidapi_xboxone.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/joystick/hidapi/SDL_hidapi_zuiki.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/joystick/hidapi/SDL_hidapijoystick.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/joystick/hidapi/SDL_report_descriptor.c"
+			]
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/joystick/linux/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/joystick/linux/SDL_sysjoystick.c"
+			]
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/joystick/linux/*.h",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/joystick/linux/SDL_sysjoystick_c.h"
+			]
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/joystick/virtual/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/joystick/virtual/SDL_virtualjoystick.c"
+			]
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/joystick/virtual/*.h",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/joystick/virtual/SDL_virtualjoystick_c.h"
+			]
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/loadso/dlopen/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/loadso/dlopen/SDL_sysloadso.c"
+			]
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/loadso/dlopen/*.h",
+			"listDirectories" : true,
+			"paths" : []
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/locale/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/locale/SDL_locale.c"
+			]
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/locale/*.h",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/locale/SDL_syslocale.h"
+			]
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/locale/unix/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/locale/unix/SDL_syslocale.c"
+			]
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/main/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/main/SDL_main_callbacks.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/main/SDL_runapp.c"
+			]
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/main/*.h",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/main/SDL_main_callbacks.h"
+			]
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/main/generic/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/main/generic/SDL_sysmain_callbacks.c"
+			]
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/main/generic/*.h",
+			"listDirectories" : true,
+			"paths" : []
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/misc/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/misc/SDL_libusb.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/misc/SDL_url.c"
+			]
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/misc/*.h",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/misc/SDL_libusb.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/misc/SDL_sysurl.h"
+			]
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/misc/unix/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/misc/unix/SDL_sysurl.c"
+			]
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/power/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/power/SDL_power.c"
+			]
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/power/*.h",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/power/SDL_syspower.h"
+			]
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/power/linux/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/power/linux/SDL_syspower.c"
+			]
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/process/posix/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/process/posix/SDL_posixprocess.c"
+			]
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/process/posix/*.h",
+			"listDirectories" : true,
+			"paths" : []
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/render/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/render/SDL_render.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/render/SDL_render_unsupported.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/render/SDL_yuv_sw.c"
+			]
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/render/*.h",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/render/SDL_d3dmath.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/render/SDL_render_debug_font.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/render/SDL_sysrender.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/render/SDL_yuv_sw_c.h"
+			]
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/render/*/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/render/direct3d/SDL_render_d3d.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/render/direct3d/SDL_shaders_d3d.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/render/direct3d11/SDL_render_d3d11.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/render/direct3d11/SDL_shaders_d3d11.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/render/direct3d12/SDL_render_d3d12.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/render/direct3d12/SDL_shaders_d3d12.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/render/gpu/SDL_pipeline_gpu.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/render/gpu/SDL_render_gpu.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/render/gpu/SDL_shaders_gpu.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/render/ngage/SDL_render_ngage.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/render/opengl/SDL_render_gl.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/render/opengl/SDL_shaders_gl.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/render/opengles2/SDL_render_gles2.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/render/opengles2/SDL_shaders_gles2.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/render/ps2/SDL_render_ps2.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/render/psp/SDL_render_psp.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/render/software/SDL_blendfillrect.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/render/software/SDL_blendline.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/render/software/SDL_blendpoint.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/render/software/SDL_drawline.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/render/software/SDL_drawpoint.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/render/software/SDL_render_sw.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/render/software/SDL_triangle.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/render/vitagxm/SDL_render_vita_gxm.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/render/vitagxm/SDL_render_vita_gxm_memory.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/render/vitagxm/SDL_render_vita_gxm_tools.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/render/vulkan/SDL_render_vulkan.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/render/vulkan/SDL_shaders_vulkan.c"
+			]
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/render/*/*.h",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/render/direct3d/D3D9_PixelShader_Palette.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/render/direct3d/D3D9_PixelShader_Palette_Linear.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/render/direct3d/D3D9_PixelShader_Palette_Nearest.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/render/direct3d/D3D9_PixelShader_YUV.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/render/direct3d/SDL_shaders_d3d.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/render/direct3d11/D3D11_PixelShader_Advanced.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/render/direct3d11/D3D11_PixelShader_Colors.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/render/direct3d11/D3D11_PixelShader_Textures.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/render/direct3d11/D3D11_VertexShader.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/render/direct3d11/SDL_shaders_d3d11.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/render/direct3d12/D3D12_PixelShader_Advanced.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/render/direct3d12/D3D12_PixelShader_Colors.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/render/direct3d12/D3D12_PixelShader_Textures.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/render/direct3d12/D3D12_RootSig_Advanced.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/render/direct3d12/D3D12_RootSig_Color.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/render/direct3d12/D3D12_RootSig_Texture.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/render/direct3d12/D3D12_VertexShader_Advanced.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/render/direct3d12/D3D12_VertexShader_Color.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/render/direct3d12/D3D12_VertexShader_Texture.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/render/direct3d12/SDL_render_d3d12_xbox.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/render/direct3d12/SDL_shaders_d3d12.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/render/gpu/SDL_gpu_util.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/render/gpu/SDL_pipeline_gpu.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/render/gpu/SDL_shaders_gpu.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/render/metal/SDL_shaders_metal_ios.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/render/metal/SDL_shaders_metal_iphonesimulator.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/render/metal/SDL_shaders_metal_macos.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/render/metal/SDL_shaders_metal_tvos.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/render/metal/SDL_shaders_metal_tvsimulator.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/render/ngage/SDL_render_ngage_c.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/render/opengl/SDL_glfuncs.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/render/opengl/SDL_shaders_gl.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/render/opengles2/SDL_gles2funcs.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/render/opengles2/SDL_shaders_gles2.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/render/psp/SDL_render_psp_c.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/render/software/SDL_blendfillrect.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/render/software/SDL_blendline.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/render/software/SDL_blendpoint.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/render/software/SDL_draw.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/render/software/SDL_drawline.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/render/software/SDL_drawpoint.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/render/software/SDL_render_sw_c.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/render/software/SDL_triangle.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/render/vitagxm/SDL_render_vita_gxm_memory.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/render/vitagxm/SDL_render_vita_gxm_shaders.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/render/vitagxm/SDL_render_vita_gxm_tools.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/render/vitagxm/SDL_render_vita_gxm_types.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/render/vulkan/SDL_shaders_vulkan.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/render/vulkan/VULKAN_PixelShader_Advanced.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/render/vulkan/VULKAN_PixelShader_Colors.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/render/vulkan/VULKAN_PixelShader_Textures.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/render/vulkan/VULKAN_VertexShader.h"
+			]
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/sensor/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/sensor/SDL_sensor.c"
+			]
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/sensor/*.h",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/sensor/SDL_sensor_c.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/sensor/SDL_syssensor.h"
+			]
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/sensor/dummy/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/sensor/dummy/SDL_dummysensor.c"
+			]
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/sensor/dummy/*.h",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/sensor/dummy/SDL_dummysensor.h"
+			]
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/stdlib/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/stdlib/SDL_crc16.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/stdlib/SDL_crc32.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/stdlib/SDL_getenv.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/stdlib/SDL_iconv.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/stdlib/SDL_malloc.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/stdlib/SDL_memcpy.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/stdlib/SDL_memmove.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/stdlib/SDL_memset.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/stdlib/SDL_mslibc.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/stdlib/SDL_murmur3.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/stdlib/SDL_qsort.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/stdlib/SDL_random.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/stdlib/SDL_stdlib.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/stdlib/SDL_string.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/stdlib/SDL_strtokr.c"
+			]
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/stdlib/*.h",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/stdlib/SDL_casefolding.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/stdlib/SDL_getenv_c.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/stdlib/SDL_sysstdlib.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/stdlib/SDL_vacopy.h"
+			]
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/storage/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/storage/SDL_storage.c"
+			]
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/storage/*.h",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/storage/SDL_sysstorage.h"
+			]
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/storage/generic/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/storage/generic/SDL_genericstorage.c"
+			]
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/storage/steam/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/storage/steam/SDL_steamstorage.c"
+			]
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/storage/steam/*.h",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/storage/steam/SDL_steamstorage_proc.h"
+			]
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/thread/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/thread/SDL_thread.c"
+			]
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/thread/*.h",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/thread/SDL_systhread.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/thread/SDL_thread_c.h"
+			]
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/time/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/time/SDL_time.c"
+			]
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/time/*.h",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/time/SDL_time_c.h"
+			]
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/time/unix/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/time/unix/SDL_systime.c"
+			]
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/timer/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/timer/SDL_timer.c"
+			]
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/timer/*.h",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/timer/SDL_timer_c.h"
+			]
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/timer/unix/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/timer/unix/SDL_systimer.c"
+			]
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/tray/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/tray/SDL_tray_utils.c"
+			]
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/tray/unix/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/tray/unix/SDL_tray.c"
+			]
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/tray/unix/*.h",
+			"listDirectories" : true,
+			"paths" : []
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/SDL_RLEaccel.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/SDL_blit.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/SDL_blit_0.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/SDL_blit_1.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/SDL_blit_A.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/SDL_blit_N.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/SDL_blit_auto.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/SDL_blit_copy.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/SDL_blit_slow.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/SDL_bmp.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/SDL_clipboard.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/SDL_egl.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/SDL_fillrect.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/SDL_pixels.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/SDL_rect.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/SDL_rotate.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/SDL_stb.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/SDL_stretch.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/SDL_surface.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/SDL_video.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/SDL_video_unsupported.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/SDL_vulkan_utils.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/SDL_yuv.c"
+			]
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/*.h",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/SDL_RLEaccel_c.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/SDL_blit.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/SDL_blit_auto.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/SDL_blit_copy.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/SDL_blit_slow.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/SDL_clipboard_c.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/SDL_egl_c.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/SDL_pixels_c.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/SDL_rect_c.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/SDL_rect_impl.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/SDL_rotate.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/SDL_stb_c.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/SDL_surface_c.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/SDL_sysvideo.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/SDL_video_c.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/SDL_video_unsupported.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/SDL_vulkan_internal.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/SDL_yuv_c.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/miniz.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/stb_image.h"
+			]
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/dummy/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/dummy/SDL_nullevents.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/dummy/SDL_nullframebuffer.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/dummy/SDL_nullvideo.c"
+			]
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/dummy/*.h",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/dummy/SDL_nullevents_c.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/dummy/SDL_nullframebuffer_c.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/dummy/SDL_nullvideo.h"
+			]
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/kmsdrm/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/kmsdrm/SDL_kmsdrmdyn.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/kmsdrm/SDL_kmsdrmevents.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/kmsdrm/SDL_kmsdrmmouse.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/kmsdrm/SDL_kmsdrmopengles.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/kmsdrm/SDL_kmsdrmvideo.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/kmsdrm/SDL_kmsdrmvulkan.c"
+			]
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/offscreen/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/offscreen/SDL_offscreenevents.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/offscreen/SDL_offscreenframebuffer.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/offscreen/SDL_offscreenopengles.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/offscreen/SDL_offscreenvideo.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/offscreen/SDL_offscreenvulkan.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/offscreen/SDL_offscreenwindow.c"
+			]
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/offscreen/*.h",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/offscreen/SDL_offscreenevents_c.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/offscreen/SDL_offscreenframebuffer_c.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/offscreen/SDL_offscreenopengles.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/offscreen/SDL_offscreenvideo.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/offscreen/SDL_offscreenvulkan.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/offscreen/SDL_offscreenwindow.h"
+			]
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/wayland/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/wayland/SDL_waylandclipboard.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/wayland/SDL_waylandcolor.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/wayland/SDL_waylanddatamanager.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/wayland/SDL_waylanddyn.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/wayland/SDL_waylandevents.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/wayland/SDL_waylandkeyboard.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/wayland/SDL_waylandmessagebox.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/wayland/SDL_waylandmouse.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/wayland/SDL_waylandopengles.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/wayland/SDL_waylandshmbuffer.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/wayland/SDL_waylandvideo.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/wayland/SDL_waylandvulkan.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/wayland/SDL_waylandwindow.c"
+			]
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/x11/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/x11/SDL_x11clipboard.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/x11/SDL_x11dyn.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/x11/SDL_x11events.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/x11/SDL_x11framebuffer.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/x11/SDL_x11keyboard.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/x11/SDL_x11messagebox.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/x11/SDL_x11modes.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/x11/SDL_x11mouse.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/x11/SDL_x11opengl.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/x11/SDL_x11opengles.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/x11/SDL_x11pen.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/x11/SDL_x11settings.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/x11/SDL_x11shape.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/x11/SDL_x11toolkit.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/x11/SDL_x11touch.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/x11/SDL_x11video.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/x11/SDL_x11vulkan.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/x11/SDL_x11window.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/x11/SDL_x11xfixes.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/x11/SDL_x11xinput2.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/x11/SDL_x11xsync.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/x11/SDL_x11xtest.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/x11/edid-parse.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/x11/xsettings-client.c"
+			]
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/yuv2rgb/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/yuv2rgb/yuv_rgb_lsx.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/yuv2rgb/yuv_rgb_sse.c",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/yuv2rgb/yuv_rgb_std.c"
+			]
+		},
+		{
+			"expression" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/yuv2rgb/*.h",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/yuv2rgb/yuv_rgb.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/yuv2rgb/yuv_rgb_common.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/yuv2rgb/yuv_rgb_internal.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/yuv2rgb/yuv_rgb_lsx.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/yuv2rgb/yuv_rgb_lsx_func.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/yuv2rgb/yuv_rgb_sse.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/yuv2rgb/yuv_rgb_sse_func.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/yuv2rgb/yuv_rgb_std.h",
+				"/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/SDL/src/video/yuv2rgb/yuv_rgb_std_func.h"
+			]
+		}
+	],
+	"inputs" : 
+	[
+		{
+			"path" : "CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/4.2.3/CMakeSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Platform/Linux-Initialize.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/4.2.3/CMakeCXXCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CMakeSystemSpecificInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CMakeGenericSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CMakeInitializeConfigs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Platform/Linux.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Platform/UnixPaths.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CMakeCXXInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Platform/Linux-GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Platform/Linux-GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Linker/GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Linker/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Platform/Linker/Linux-GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Platform/Linker/Linux-GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Platform/Linker/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/FindOpenGL.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "SDL/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/4.2.3/CMakeCCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CMakeCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Platform/Linux-GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Platform/Linux-GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Internal/CMakeCLinkerInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Linker/GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Linker/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Platform/Linker/Linux-GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Platform/Linker/Linux-GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CheckLibraryExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CheckIncludeFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CheckIncludeFiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CheckLanguage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CheckSymbolExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CheckCSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CheckCSourceRuns.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Internal/CheckSourceRuns.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CheckCCompilerFlag.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Internal/CheckFlagCommonConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CheckCSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CheckCXXSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CheckStructHasMember.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CheckSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CheckCSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CheckCXXSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CMakeDependentOption.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CMakeParseArguments.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CMakePushCheckState.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/GNUInstallDirs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/FindPkgConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "SDL/cmake/macros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CheckLinkerFlag.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Internal/CheckLinkerFlag.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Internal/CheckFlagCommonConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake"
+		},
+		{
+			"path" : "SDL/cmake/sdlchecks.cmake"
+		},
+		{
+			"path" : "SDL/cmake/sdlcommands.cmake"
+		},
+		{
+			"path" : "SDL/cmake/sdlcompilers.cmake"
+		},
+		{
+			"path" : "SDL/cmake/sdlcpu.cmake"
+		},
+		{
+			"path" : "SDL/cmake/sdlmanpages.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CMakeParseArguments.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/GNUInstallDirs.cmake"
+		},
+		{
+			"path" : "SDL/cmake/sdlplatform.cmake"
+		},
+		{
+			"path" : "SDL/cmake/GetGitRevisionDescription.cmake"
+		},
+		{
+			"path" : "SDL/cmake/3rdparty.cmake"
+		},
+		{
+			"path" : "SDL/cmake/PreseedMSVCCache.cmake"
+		},
+		{
+			"path" : "SDL/cmake/PreseedEmscriptenCache.cmake"
+		},
+		{
+			"path" : "SDL/cmake/PreseedNokiaNGageCache.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/FindALSA.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/FindX11.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/FindFreetype.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/SelectLibraryConfigurations.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/FindFontconfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/FindPkgConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CheckFunctionExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CheckLibraryExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/FindOpenGL.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/FindOpenGL.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/FindOpenGL.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/FindOpenGL.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "SDL/cmake/FindLibUSB.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/FindPkgConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "SDL/include/build_config/SDL_build_config.h.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/FindGit.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : ".git/HEAD"
+		},
+		{
+			"path" : "SDL/cmake/GetGitRevisionDescription.cmake.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/SDL/CMakeFiles/git-data/grabRef.cmake"
+		},
+		{
+			"path" : ".git/refs/heads/master"
+		},
+		{
+			"path" : "SDL/include/build_config/SDL_revision.h.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CMakePackageConfigHelpers.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/WriteBasicConfigVersionFile.cmake"
+		},
+		{
+			"path" : "SDL/cmake/SDL3Config.cmake.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/SDL/CMakeFiles/SDL_build_config.h.intermediate"
+		}
+	],
+	"kind" : "cmakeFiles",
+	"paths" : 
+	{
+		"build" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/build",
+		"source" : "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu"
+	},
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 1
+	}
+}

@@ -7,7 +7,7 @@ if(CMAKE_VERSION VERSION_LESS "2.8.3")
    message(FATAL_ERROR "CMake >= 2.8.3 required")
 endif()
 cmake_policy(PUSH)
-cmake_policy(VERSION 2.8.3...3.29)
+cmake_policy(VERSION 2.8.3...4.0)
 #----------------------------------------------------------------
 # Generated CMake target import file.
 #----------------------------------------------------------------
@@ -51,7 +51,7 @@ add_library(SDL3::SDL3_test STATIC IMPORTED)
 
 set_target_properties(SDL3::SDL3_test PROPERTIES
   COMPATIBLE_INTERFACE_STRING "SDL_VERSION"
-  INTERFACE_LINK_LIBRARIES "SDL3::Headers"
+  INTERFACE_LINK_LIBRARIES "\$<LINK_ONLY:PkgConfig::PC_LIBUNWIND>;SDL3::Headers"
   INTERFACE_SDL_VERSION "SDL3"
 )
 
@@ -59,7 +59,7 @@ set_target_properties(SDL3::SDL3_test PROPERTIES
 set_property(TARGET SDL3::SDL3_test APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(SDL3::SDL3_test PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_DEBUG "C"
-  IMPORTED_LOCATION_DEBUG "/mnt/data/Documents/UQAT/OptimisationMoteur/FenetreBoucleJeu/build/SDL/libSDL3_test.a"
+  IMPORTED_LOCATION_DEBUG "/data/Documents/UQAT/perforce/20261-PGJ1402/TP4/poij31/FenetreBoucleJeu/build/SDL/libSDL3_test.a"
   )
 
 # Make sure the targets which have been exported in some other
